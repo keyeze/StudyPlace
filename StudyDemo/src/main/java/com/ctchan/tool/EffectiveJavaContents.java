@@ -1,6 +1,6 @@
 package com.ctchan.tool;
 
-import com.ctchan.Effective.Demo.StaticFactory.Advantage_One;
+import com.ctchan.Effective.StaticFactory.Advantage;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,47 +12,37 @@ import java.util.Iterator;
  * Created by keyez on 2017/7/16.
  */
 public enum EffectiveJavaContents implements DemoExplain {
-    A1(1, "第1条:考虑用静态工厂方法代替构造器", Advantage_One.class),
+    A1(1, "第1条:考虑用静态工厂方法代替构造器", Advantage.class),
     A2(2, "", null),
     A3(3, "", null);
     private final String title;
     private final Integer id;
-    private BaseDemo baseDemo = null;
+    private Class<?> clazz = null;
 
-    EffectiveJavaContents(Integer id, String title, Class<? extends BaseDemo> clazz) {
+    EffectiveJavaContents(Integer id, String title, Class<?> clazz) {
         this.title = title;
         this.id = id;
         if (clazz == null) return;
-        try {
-            this.baseDemo = clazz.newInstance();
-        } catch (Exception e) {
-            e.printStackTrace();
-            this.baseDemo = new BaseDemo() {
-                @Override
-                public String explain() {
-                    return "你的类创建失败了。";
-                }
-            };
-        }
+        this.clazz = clazz;
 
     }
 
     @Override
     public String explain() {
-        return this.needToString() ? ", explain:'" + baseDemo + "'" : "";
+        return this.name() + "{" +
+                id + ". '" + title + '\'' +
+                " : " + (clazz == null ? clazz : clazz.getName()) +
+                '}';
     }
 
     @Override
     public Boolean needToString() {
-        return true;
+        return false;
     }
 
     @Override
     public String toString() {
-        return this.name() + "{" +
-                "title='" + title + '\'' +
-                ", id=" + id + this.explain() +
-                '}';
+        return explain();
     }
 
     public static void main(String[] args) {
