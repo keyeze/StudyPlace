@@ -1,6 +1,6 @@
 package com.ctchan.tool;
 
-import com.ctchan.Effective.StaticFactory.Advantage;
+import com.ctchan.Effective.StaticFactory.Characteristic;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,7 +12,7 @@ import java.util.Iterator;
  * Created by keyez on 2017/7/16.
  */
 public enum EffectiveJavaContents implements DemoExplain {
-    A1(1, "第1条:考虑用静态工厂方法代替构造器", Advantage.class),
+    A1(1, "第1条:考虑用静态工厂方法代替构造器", Characteristic.class),
     A2(2, "", null),
     A3(3, "", null);
     private final String title;
