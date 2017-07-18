@@ -1,6 +1,7 @@
 package com.ctchan.Effective;
 
-import com.ctchan.Effective.Builder.BuilderDemo;
+import com.ctchan.Effective.Buidler.Builder;
+import com.ctchan.Effective.Builder.Demo.BuilderDemo;
 import com.ctchan.Effective.StaticFactory.Characteristic;
 import com.ctchan.tool.DemoExplain;
 
@@ -15,8 +16,8 @@ import java.util.Iterator;
  */
 public enum EffectiveJavaContents implements DemoExplain {
     A1(1, "第1条:考虑用静态工厂方法代替构造器", Characteristic.class),
-    A2(2, "第2条:遇到多个构造器参数时要考虑用构建器", BuilderDemo.class),
-    A3(3, "", null);
+    A2(2, "第2条:遇到多个构造器参数时要考虑用构建器", Builder.class),
+    A3(3, "第3条:用私有构造器或者枚举类型强化Singleton属性", null);
     private final String title;
     private final Integer id;
     private Class<?> clazz = null;

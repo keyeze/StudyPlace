@@ -1,4 +1,4 @@
-package com.ctchan.Effective.Demo.Enum;
+package com.ctchan.Effective.Enum;
 
 /**
  * Created by keyez on 2017/7/16.
