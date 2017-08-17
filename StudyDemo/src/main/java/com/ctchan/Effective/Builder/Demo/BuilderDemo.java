@@ -1,6 +1,6 @@
 package com.ctchan.Effective.Builder.Demo;
 
-import com.ctchan.tool.BaseDemo;
+import com.ctchan.test.BaseDemo;
 
 /**
  * Created by Osborn on 2017/7/17.

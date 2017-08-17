@@ -1,7 +1,7 @@
 package com.ctchan.Effective.StaticFactory;
 
 import com.ctchan.Effective.StaticFactory.Demo.*;
-import com.ctchan.tool.DemoExplain;
+import com.ctchan.test.DemoExplain;
 
 /**
  * 第一条:考虑用静态工厂方法代替构造器

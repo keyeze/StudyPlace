@@ -1,9 +1,8 @@
 package com.ctchan.Effective;
 
 import com.ctchan.Effective.Buidler.Builder;
-import com.ctchan.Effective.Builder.Demo.BuilderDemo;
 import com.ctchan.Effective.StaticFactory.Characteristic;
-import com.ctchan.tool.DemoExplain;
+import com.ctchan.test.DemoExplain;
 
 import java.util.ArrayList;
 import java.util.Collections;

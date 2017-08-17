@@ -1,6 +1,6 @@
 package com.ctchan.Effective.StaticFactory.Demo;
 
-import com.ctchan.tool.BaseDemo;
+import com.ctchan.test.BaseDemo;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

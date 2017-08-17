@@ -2,7 +2,7 @@ package com.ctchan.Effective.Buidler;
 
 import com.ctchan.Effective.Builder.Demo.NutritionFacts;
 import com.ctchan.Effective.EffectiveJavaContents;
-import com.ctchan.tool.DemoExplain;
+import com.ctchan.test.DemoExplain;
 
 import java.util.ArrayList;
 import java.util.Collections;

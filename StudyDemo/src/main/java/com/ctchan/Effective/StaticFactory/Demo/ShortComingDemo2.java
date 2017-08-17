@@ -1,6 +1,6 @@
 package com.ctchan.Effective.StaticFactory.Demo;
 
-import com.ctchan.tool.BaseDemo;
+import com.ctchan.test.BaseDemo;
 
 /**
  * 静态工厂方法与构造器不同的第二个缺点在于，它们与其他的静态方法实际上没有任何区别

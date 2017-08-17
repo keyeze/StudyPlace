@@ -1,10 +1,9 @@
 package com.ctchan.Effective.StaticFactory.Demo;
 
-import com.ctchan.tool.BaseDemo;
+import com.ctchan.test.BaseDemo;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.TreeMap;
 
 /**
  * 静态工厂方法与构造器不同的第四个优势在于，在创建参数化类型实例时，它可以让代码更简洁
