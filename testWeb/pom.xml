@@ -10,7 +10,6 @@
     <artifactId>testWeb</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <!-- 初始化框架的版本号 -->
     <properties>
         <spring.version>4.3.3.RELEASE</spring.version>
@@ -114,6 +113,19 @@
             <version>${spring.version}</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/aspectj/aspectjrt -->
+        <dependency>
+            <groupId>aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>1.5.4</version>
+        </dependency>
+
         <!-- 引入Spring 依赖 end -->
 
         <!-- 引用c3p0 依赖 start-->
@@ -140,7 +152,7 @@
 
     </dependencies>
     <build>
-        <finalName>fendo-SSM</finalName>
+        <finalName>ctchan-SSM</finalName>
 
         <plugins>
             <!-- 加入Tomcat插件 -->
