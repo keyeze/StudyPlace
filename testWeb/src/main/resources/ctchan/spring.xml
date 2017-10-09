@@ -1,0 +1,42 @@
+<beans default-lazy-init="true"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.2.xsd   http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx">
+
+<!--    <aop:aspectj-autoproxy/>
+
+    &lt;!&ndash;<context:component-scan base-package="com.chan">&ndash;&gt;
+    &lt;!&ndash;<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>&ndash;&gt;
+    &lt;!&ndash;</context:component-scan>&ndash;&gt;
+    &lt;!&ndash; 扫描注解：扫描base-package中的存在@Component @Controller@Service等注解，
+  隐式地注册了注解解析器： AutowiredAnnotationBeanPostProcessor、CommonAnnotationBeanPostProcessor
+ 使用到其他注解 @Persistence、@Equired或其他自定义注解时，需要注册对应解析器 &ndash;&gt;
+    <context:component-scan base-package="com.chan">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Service"/>
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>
+    </context:component-scan>-->
+
+<!--    <bean id="transactionManager" class=""/>
+    <tx:advice id="txAdvice">
+        <tx:attributes>
+            <tx:method propagation="REQUIRED" name="insert*" rollback-for="java.lang.Throwable"/>
+            <tx:method propagation="REQUIRED" name="save*" rollback-for="java.lang.Throwable"/>
+            <tx:method propagation="REQUIRED" name="remove*" rollback-for="java.lang.Throwable"/>
+            <tx:method propagation="REQUIRED" name="delete*" rollback-for="java.lang.Throwable"/>
+            <tx:method propagation="REQUIRED" name="update*" rollback-for="java.lang.Throwable"/>
+            <tx:method read-only="true" name="get*"/>
+            <tx:method read-only="true" name="list*"/>
+            <tx:method read-only="true" name="count*"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <aop:config expose-proxy="true" proxy-target-class="true">
+        <aop:pointcut id="txPointcut" expression="execution(* com.chan.service..*.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"/>
+    </aop:config>-->
+
+</beans>
