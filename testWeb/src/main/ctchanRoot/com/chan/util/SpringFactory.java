@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 
 public class SpringFactory {
     public <T> T getIntance(Class<T> clz, HttpServletRequest request) {
-        ApplicationContext ctx = WebApplicationContextUtils.getRequiredWebApplicationContext(request.getSession().getServletContext());
-        return (T) ctx.getBean(clz.getSimpleName());
+        return null;
     }
 }
