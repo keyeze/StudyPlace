@@ -7,27 +7,28 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:tx="http://www.springframework.org/schema/tx">
 
-<!--    <aop:aspectj-autoproxy/>
 
-    &lt;!&ndash;<context:component-scan base-package="com.chan">&ndash;&gt;
-    &lt;!&ndash;<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>&ndash;&gt;
-    &lt;!&ndash;</context:component-scan>&ndash;&gt;
-    &lt;!&ndash; 扫描注解：扫描base-package中的存在@Component @Controller@Service等注解，
+    <!-- 扫描注解：扫描base-package中的存在@Component @Controller@Service等注解，
   隐式地注册了注解解析器： AutowiredAnnotationBeanPostProcessor、CommonAnnotationBeanPostProcessor
- 使用到其他注解 @Persistence、@Equired或其他自定义注解时，需要注册对应解析器 &ndash;&gt;
+ 使用到其他注解 @Persistence、@Equired或其他自定义注解时，需要注册对应解析器 -->
     <context:component-scan base-package="com.chan">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Service"/>
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>
-    </context:component-scan>-->
+    </context:component-scan>
 
-<!--    <bean id="transactionManager" class=""/>
+    <bean id="transactionManager"/>
     <tx:advice id="txAdvice">
         <tx:attributes>
-            <tx:method propagation="REQUIRED" name="insert*" rollback-for="java.lang.Throwable"/>
-            <tx:method propagation="REQUIRED" name="save*" rollback-for="java.lang.Throwable"/>
-            <tx:method propagation="REQUIRED" name="remove*" rollback-for="java.lang.Throwable"/>
-            <tx:method propagation="REQUIRED" name="delete*" rollback-for="java.lang.Throwable"/>
-            <tx:method propagation="REQUIRED" name="update*" rollback-for="java.lang.Throwable"/>
+            <tx:method propagation="REQUIRED" name="insert*" rollback-for="java.lang.Throwable"
+                       no-rollback-for="com.chan.common.SuccessThrowable"/>
+            <tx:method propagation="REQUIRED" name="save*" rollback-for="java.lang.Throwable"
+                       no-rollback-for="com.chan.common.SuccessThrowable"/>
+            <tx:method propagation="REQUIRED" name="remove*" rollback-for="java.lang.Throwable"
+                       no-rollback-for="com.chan.common.SuccessThrowable"/>
+            <tx:method propagation="REQUIRED" name="delete*" rollback-for="java.lang.Throwable"
+                       no-rollback-for="com.chan.common.SuccessThrowable"/>
+            <tx:method propagation="REQUIRED" name="update*" rollback-for="java.lang.Throwable"
+                       no-rollback-for="com.chan.common.SuccessThrowable"/>
             <tx:method read-only="true" name="get*"/>
             <tx:method read-only="true" name="list*"/>
             <tx:method read-only="true" name="count*"/>
@@ -35,8 +36,17 @@
     </tx:advice>
 
     <aop:config expose-proxy="true" proxy-target-class="true">
-        <aop:pointcut id="txPointcut" expression="execution(* com.chan.service..*.*(..))"/>
+        <aop:pointcut id="txPointcut" expression="
+               execution(* com.chan.service..*.insert*(..))
+            or execution(* com.chan.service..*.save*(..))
+            or execution(* com.chan.service..*.remove*(..))
+            or execution(* com.chan.service..*.delete*(..))
+            or execution(* com.chan.service..*.update*(..))
+            or execution(* com.chan.service..*.get*(..))
+            or execution(* com.chan.service..*.list*(..))
+            or execution(* com.chan.service..*.count*(..))"
+        />
         <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"/>
-    </aop:config>-->
+    </aop:config>
 
 </beans>
