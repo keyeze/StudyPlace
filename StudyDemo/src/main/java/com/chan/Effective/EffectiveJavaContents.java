@@ -1,6 +1,8 @@
 package com.chan.Effective;
 
+import com.chan.Effective.Advice5.Advise5;
 import com.chan.Effective.Buidler.Builder;
+import com.chan.Effective.Singleton.Singleton;
 import com.chan.Effective.StaticFactory.Characteristic;
 import com.chan.test.DemoExplain;
 
@@ -16,7 +18,10 @@ import java.util.Iterator;
 public enum EffectiveJavaContents implements DemoExplain {
     A1(1, "第1条:考虑用静态工厂方法代替构造器", Characteristic.class),
     A2(2, "第2条:遇到多个构造器参数时要考虑用构建器", Builder.class),
-    A3(3, "第3条:用私有构造器或者枚举类型强化Singleton属性", null);
+    A3(3, "第3条:用私有构造器或者枚举类型强化Singleton属性", Singleton.class),
+    A4(4, "第4条:通过私有构造器强化不可实例化的能力", RefuseInstance.class),
+    A5(5, "第5条:避免创建不必要的对象", Advise5.class),;
+
     private final String title;
     private final Integer id;
     private Class<?> clazz = null;
