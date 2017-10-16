@@ -62,7 +62,7 @@ public enum EffectiveJavaContents implements DemoExplain {
                 StringBuilder sb = new StringBuilder();
                 for (; ; ) {
                     EffectiveJavaContents e = it.next();
-                    sb.append(e.equals(this) ? "(this Collection)" : e);
+                    sb.append(e);
                     if (!it.hasNext())
                         return sb.append('.').toString();
                     sb.append(',').append('\n');

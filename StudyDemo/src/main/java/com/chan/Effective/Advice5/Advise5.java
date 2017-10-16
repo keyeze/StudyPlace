@@ -1,8 +1,11 @@
 package com.chan.Effective.Advice5;
 
+import org.junit.Test;
+
 import java.util.Calendar;
 import java.util.Date;
 import java.util.TimeZone;
+import java.util.WeakHashMap;
 
 public class Advise5 {
     String s = new String("DON'T DO THIS!");//DON'T DO THIS!
@@ -39,5 +42,32 @@ public class Advise5 {
         public boolean isBabyBoomer2() {
             return birthDate.compareTo(BOOM_START) >= 0 && birthDate.compareTo(BOOM_END) < 0;
         }
+    }
+
+    //要优先使用基本类型而不是装箱基本类型，要当心无意识的自动装箱
+    @Test
+    public void demo(){
+        Long sum = 0L;
+        long start = new Date().getTime();
+        for (long i = 0; i < Integer.MAX_VALUE; i++)
+            sum +=i;
+        long end = new Date().getTime();
+        System.out.println("time use:"+(end-start)+" ms!");
+
+        long sum2 = 0L;
+        start = new Date().getTime();
+        for (long i = 0; i < Integer.MAX_VALUE; i++)
+            sum2 +=i;
+        end = new Date().getTime();
+        System.out.println("time use:"+(end-start)+" ms!");
+
+        Long sum3 = 0L;
+        start = new Date().getTime();
+        for (Long i = 0L; i < Integer.MAX_VALUE; i++)
+            sum3 +=i;
+        end = new Date().getTime();
+        System.out.println("time use:"+(end-start)+" ms!");
+
+
     }
 }
