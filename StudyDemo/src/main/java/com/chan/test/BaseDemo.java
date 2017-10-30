@@ -4,6 +4,7 @@ package com.chan.test;
  * Created by keyez on 2017/7/16.
  */
 public abstract class BaseDemo implements DemoExplain {
+    @Override
     public Boolean needToString() {
         return false;
     }

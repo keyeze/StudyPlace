@@ -48,24 +48,27 @@ public class Advise5 {
     @Test
     public void demo(){
         Long sum = 0L;
-        long start = new Date().getTime();
-        for (long i = 0; i < Integer.MAX_VALUE; i++)
-            sum +=i;
-        long end = new Date().getTime();
+        long start = System.currentTimeMillis();
+        for (long i = 0; i < Integer.MAX_VALUE; i++) {
+            sum += i;
+        }
+        long end = System.currentTimeMillis();
         System.out.println("time use:"+(end-start)+" ms!");
 
         long sum2 = 0L;
-        start = new Date().getTime();
-        for (long i = 0; i < Integer.MAX_VALUE; i++)
-            sum2 +=i;
-        end = new Date().getTime();
+        start = System.currentTimeMillis();
+        for (long i = 0; i < Integer.MAX_VALUE; i++) {
+            sum2 += i;
+        }
+        end = System.currentTimeMillis();
         System.out.println("time use:"+(end-start)+" ms!");
 
         Long sum3 = 0L;
-        start = new Date().getTime();
-        for (Long i = 0L; i < Integer.MAX_VALUE; i++)
-            sum3 +=i;
-        end = new Date().getTime();
+        start = System.currentTimeMillis();
+        for (Long i = 0L; i < Integer.MAX_VALUE; i++) {
+            sum3 += i;
+        }
+        end = System.currentTimeMillis();
         System.out.println("time use:"+(end-start)+" ms!");
 
 

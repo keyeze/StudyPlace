@@ -29,7 +29,8 @@ public enum Characteristic implements DemoExplain {
 		this.clazz = clazz;
 	}
 
-	public Boolean needToString() {
+	@Override
+    public Boolean needToString() {
 		return false;
 	}
 

@@ -21,8 +21,9 @@ public class AtomicIntergerNoSafe {
 		try {
 			MyService myService = new MyService();
 			List<Thread> threads = new ArrayList<>(5);
-			for (int i = 0; i < 5; i++)
-				threads.add(new Thread(myService::addNum));
+			for (int i = 0; i < 5; i++) {
+                threads.add(new Thread(myService::addNum));
+            }
 			threads.forEach(Thread::start);
 			Thread.sleep(1000);
 			System.out.println(MyService.aiRef.get());

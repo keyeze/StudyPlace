@@ -16,8 +16,9 @@ public class Waitor extends Person {
 		List<Order> orders = RestaurantPool.OrderPool.getTableOrder(table_num);
 		Double sumCost = 0d;
 		//生成结算订单
-		for (Order item : orders)
-			sumCost += item.getTotalPrice();
+		for (Order item : orders) {
+            sumCost += item.getTotalPrice();
+        }
 		return sumCost;
 	}
 
@@ -49,8 +50,9 @@ public class Waitor extends Person {
 
 	//todo :这里可以和Customer的CallWaitor做共用操作.
 	public void CallCooker() {
-		if (serviceCooker != null)
-			return;
+		if (serviceCooker != null) {
+            return;
+        }
 		this.serviceCooker = RestaurantPool.CookerPool.CallCooker();
 	}
 

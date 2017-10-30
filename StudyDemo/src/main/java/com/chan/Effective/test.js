@@ -4,7 +4,7 @@
 
 
 
-CtChanMethod : {
+var CtChanMethod = {
 
 };
 

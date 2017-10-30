@@ -6,12 +6,14 @@ package com.chan.JavaMutiThreadProgramming.Demo;
 public class AsynchronizedAndSynchronizedDemo {
 	public static class Task {
 		public void doLongTimeTask() {
-			for (int i = 0; i < 100; i++)
-				System.out.println("Asynchronized threadName = " + Thread.currentThread().getName()+" i = " + i);
+			for (int i = 0; i < 100; i++) {
+                System.out.println("Asynchronized threadName = " + Thread.currentThread().getName() + " i = " + i);
+            }
 			System.out.println("");
 			synchronized (this) {
-				for (int i = 0; i < 100; i++)
-					System.out.println("Synchronized threadName = " + Thread.currentThread().getName()+" i = " + i);
+				for (int i = 0; i < 100; i++) {
+                    System.out.println("Synchronized threadName = " + Thread.currentThread().getName() + " i = " + i);
+                }
 			}
 		}
 	}

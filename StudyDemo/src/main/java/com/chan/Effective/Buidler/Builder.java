@@ -22,8 +22,9 @@ public enum Builder implements DemoExplain {
 	Builder(Integer id, String title, Class<?> clazz) {
 		this.title = title;
 		this.id = id;
-		if (clazz == null)
-			return;
+		if (clazz == null) {
+            return;
+        }
 		this.clazz = clazz;
 
 	}
@@ -48,17 +49,20 @@ public enum Builder implements DemoExplain {
 
 	public static void main(String[] args) {
 		List<EffectiveJavaContents> list = new ArrayList<EffectiveJavaContents>() {
-			public String toString() {
+			@Override
+            public String toString() {
 				Iterator<EffectiveJavaContents> it = iterator();
-				if (!it.hasNext())
-					return "[]";
+				if (!it.hasNext()) {
+                    return "[]";
+                }
 
 				StringBuilder sb = new StringBuilder();
 				for (; ; ) {
 					EffectiveJavaContents e = it.next();
 					sb.append(e.equals(this) ? "(this Collection)" : e);
-					if (!it.hasNext())
-						return sb.append('.').toString();
+					if (!it.hasNext()) {
+                        return sb.append('.').toString();
+                    }
 					sb.append(',').append('\n');
 				}
 			}

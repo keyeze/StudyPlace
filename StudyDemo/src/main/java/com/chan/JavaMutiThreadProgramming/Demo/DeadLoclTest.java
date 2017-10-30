@@ -14,7 +14,7 @@ public class DeadLoclTest {
 		}
 
 		public void run() {
-			if (username.equals("CtChan")) {
+			if ("CtChan".equals(username)) {
 				synchronized (lock1) {
 					try {
 						System.out.println("username = " + username);
@@ -27,7 +27,7 @@ public class DeadLoclTest {
 					}
 				}
 			}
-			if (username.equals("nahCtC")) {
+			if ("nahCtC".equals(username)) {
 				synchronized (lock2) {
 					try {
 						System.out.println("username = " + username);

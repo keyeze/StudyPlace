@@ -39,7 +39,7 @@ public class SynStaticMethod {
 
 	public static void main(String[] args) throws InterruptedException {
 		Service service = new Service();
-		new Thread(()->service.printA(), "A").start();
+		new Thread(Service::printA, "A").start();
 		new Thread(Service::printB, "B").start();
 		new Thread(service::printC, "C").start();
 

@@ -16,7 +16,7 @@ class HasSelfPrivateNum {
 
 	synchronized public void addI(String username) {
 		try {
-			if (username.equals("a")) {
+			if ("a".equals(username)) {
 				num = 100;
 				System.out.println("a set over!");
 				Thread.sleep(2000);

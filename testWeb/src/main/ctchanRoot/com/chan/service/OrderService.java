@@ -31,8 +31,9 @@ public class OrderService implements IOrderService {
     @Transactional(propagation = Propagation.REQUIRED, rollbackFor = java.lang.Throwable.class, noRollbackFor = com.chan.common.SuccessThrowable.class)
     public Order redealPreOrder(Long orderId) throws Throwable {
         Order order = orderDao.getOrderById(orderId);
-        if (CommonUtil.STATUS.HAS_PAY.is().equals(order.getPayStatus()))
+        if (CommonUtil.STATUS.HAS_PAY.is().equals(order.getPayStatus())) {
             throw new SuccessThrowable("已经支付过,无需再次调用支付流程");
+        }
         order.setACost(null);
         order.setBCost(null);
         order.setCCost(null);

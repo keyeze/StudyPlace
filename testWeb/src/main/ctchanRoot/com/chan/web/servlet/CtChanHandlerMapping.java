@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @Component
 public class CtChanHandlerMapping implements HandlerMapping {
+    @Override
     public HandlerExecutionChain getHandler(HttpServletRequest request) throws Exception {
         System.out.println("CtChan的Handler处理链路");
         return null;

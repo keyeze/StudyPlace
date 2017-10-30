@@ -64,8 +64,9 @@ class Services {
 
 	private static Service newInstance(String name) {
 		Provider p = providers.get(name);
-		if (p == null)
-			throw new IllegalArgumentException("No provider registerd with name:" + name);
+		if (p == null) {
+            throw new IllegalArgumentException("No provider registerd with name:" + name);
+        }
 		return p.newService();
 	}
 }

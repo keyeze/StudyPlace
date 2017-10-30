@@ -6,14 +6,23 @@ import java.util.concurrent.ConcurrentHashMap;
 //服务商应该还要暴露它们的服务
 //Service Provider interface
 public interface Provider {
-	public static final String DEFAULT_PROVIDER_NAME = "<def>";
-	public static final ConcurrentHashMap<String, Service> servicesMap = new ConcurrentHashMap<>();
+    String DEFAULT_PROVIDER_NAME = "<def>";
+    ConcurrentHashMap<String, Service> SERVICES_MAP = new ConcurrentHashMap<>();
 
-	//提供服务
-	public Service newService(String name);
+    /**
+     * 提供服务
+     *
+     * @param name
+     * @return
+     */
 
-	//暴露服务
-	public Map<String, Service> showServices();
+    Service newService(String name);
+
+    /**
+     * 暴露服务
+     */
+
+    Map<String, Service> showServices();
 
 }
 

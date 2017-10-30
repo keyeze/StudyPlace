@@ -29,7 +29,9 @@ public enum EffectiveJavaContents implements DemoExplain {
     EffectiveJavaContents(Integer id, String title, Class<?> clazz) {
         this.title = title;
         this.id = id;
-        if (clazz == null) return;
+        if (clazz == null) {
+            return;
+        }
         this.clazz = clazz;
 
     }
@@ -54,17 +56,20 @@ public enum EffectiveJavaContents implements DemoExplain {
 
     public static void main(String[] args) {
         List<EffectiveJavaContents> list = new ArrayList<EffectiveJavaContents>() {
+            @Override
             public String toString() {
                 Iterator<EffectiveJavaContents> it = iterator();
-                if (!it.hasNext())
+                if (!it.hasNext()) {
                     return "[]";
+                }
 
                 StringBuilder sb = new StringBuilder();
                 for (; ; ) {
                     EffectiveJavaContents e = it.next();
                     sb.append(e);
-                    if (!it.hasNext())
+                    if (!it.hasNext()) {
                         return sb.append('.').toString();
+                    }
                     sb.append(',').append('\n');
                 }
             }

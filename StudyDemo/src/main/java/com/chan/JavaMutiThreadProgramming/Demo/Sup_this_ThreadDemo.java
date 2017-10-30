@@ -29,7 +29,8 @@ public class Sup_this_ThreadDemo {
 
 
 	public static class Sub extends Sup_this_ThreadDemo.Main {
-		synchronized public void say() {
+		@Override
+        synchronized public void say() {
 			try {
 				System.out.println("this is sub！");
 				Thread.sleep(100);
@@ -39,7 +40,8 @@ public class Sup_this_ThreadDemo {
 			}
 		}
 
-		synchronized public void say2() {
+		@Override
+        synchronized public void say2() {
 			try {
 				while (i > 0) {
 					i--;

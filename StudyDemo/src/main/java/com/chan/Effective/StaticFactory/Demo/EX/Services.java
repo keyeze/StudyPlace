@@ -31,21 +31,25 @@ public class Services {
 	//Service access API
 	public static <T> T newInstance() throws Exception {
 		Provider provider = providers.get(null);
-		if (provider == null)
-			throw new Exception();
+		if (provider == null) {
+            throw new Exception();
+        }
 		Service service = provider.newService(null);
-		if (service == null)
-			throw new Exception();
-		if (service.getClass() != null)
-			return (T) newInstance(DEFAULT_PROVIDER_NAME);
+		if (service == null) {
+            throw new Exception();
+        }
+		if (service.getClass() != null) {
+            return (T) newInstance(DEFAULT_PROVIDER_NAME);
+        }
 
 		return null;
 	}
 
 	private static Service newInstance(String name) {
 		Provider p = providers.get(name);
-		if (p == null)
-			throw new IllegalArgumentException("No provider registerd with name:" + name);
+		if (p == null) {
+            throw new IllegalArgumentException("No provider registerd with name:" + name);
+        }
 		return p.newService(name);
 	}
 }

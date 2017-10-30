@@ -16,8 +16,9 @@ public enum Singleton implements DemoExplain {
     Singleton(Integer id, String title, Class<?> clazz) {
         this.title = title;
         this.id = id;
-        if (clazz == null)
+        if (clazz == null) {
             return;
+        }
         this.clazz = clazz;
 
     }

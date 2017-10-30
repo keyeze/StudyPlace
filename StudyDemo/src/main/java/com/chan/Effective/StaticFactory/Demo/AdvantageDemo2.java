@@ -28,7 +28,8 @@ public class AdvantageDemo2 extends BaseDemo {
 		this.str = str;
 	}
 
-	public String explain() {
+	@Override
+    public String explain() {
 		return null;
 	}
 

@@ -44,8 +44,9 @@ public class Customer extends Person {
     //todo :这里应该进行进行读写锁操作,当超过时间 客户不需要 waitor 时 释放wait用户
     private void overService(Task task) {
         //添加Waitor任务
-        if (task != null)
+        if (task != null) {
             serviceWaitor.acceptTask(task);
+        }
         //todo:添加服务等待结束,等待时间,这个过程会随着overService的进入而强制结束;
         RestaurantPool.WaitorPool.beFreeWaitor(serviceWaitor);
         this.serviceWaitor = null;
@@ -62,8 +63,9 @@ public class Customer extends Person {
      * 呼叫服务员
      */
     private void CallWaitor() {
-        if (serviceWaitor != null)
+        if (serviceWaitor != null) {
             return;
+        }
         this.serviceWaitor = RestaurantPool.WaitorPool.CallWaitor();
     }
 
