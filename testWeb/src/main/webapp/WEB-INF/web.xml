@@ -59,13 +59,13 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>spring-mvc</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/ctchan/*</url-pattern>
     </servlet-mapping>
 
-<!--    &lt;!&ndash;值存在于这个servlet&ndash;&gt;&lt;!&ndash; flandre 框架 为学习用的自定义框架 &ndash;&gt;
+    <!--值存在于这个servlet--><!-- flandre 框架 为学习用的自定义框架 -->
     <servlet>
         <servlet-name>flandre-mvc</servlet-name>
-        <servlet-class>com.chan.web.servlet.CtChanFrameworkServlet</servlet-class>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath*:flandre/flandre-mvc.xml</param-value>
@@ -75,6 +75,6 @@
     <servlet-mapping>
         <servlet-name>flandre-mvc</servlet-name>
         <url-pattern>/flandre/*</url-pattern>
-    </servlet-mapping>-->
+    </servlet-mapping>
 </web-app>
         
