@@ -7,6 +7,16 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:tx="http://www.springframework.org/schema/tx">
 
+    <!--    &lt;!&ndash; 读取配置文件 &ndash;&gt;
+        <bean id="configPropertiesForSpring"
+              class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+            <property name="locations">
+                <list>
+                    <value>classpath:jPush.properties</value>
+                </list>
+            </property>
+        </bean>-->
+    <context:property-placeholder location="classpath:jPush.properties"/>
 
     <!-- 扫描注解：扫描base-package中的存在@Component @Controller@Service等注解，
   隐式地注册了注解解析器： AutowiredAnnotationBeanPostProcessor、CommonAnnotationBeanPostProcessor
@@ -16,6 +26,11 @@
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>
     </context:component-scan>
 
+
+    <bean class="cn.jpush.api.JPushClient" id="jPushClient">
+        <constructor-arg type="java.lang.String" value="${jPush.masterSecret}"/>
+        <constructor-arg type="java.lang.String" value="${jPush.appKey}"/>
+    </bean>
     <bean id="transactionManager"/>
     <tx:advice id="txAdvice">
         <tx:attributes>
