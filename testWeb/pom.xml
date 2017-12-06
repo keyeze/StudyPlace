@@ -126,6 +126,14 @@
             <version>1.5.4</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.springframework.ldap/spring-ldap -->
+        <dependency>
+            <groupId>org.springframework.ldap</groupId>
+            <artifactId>spring-ldap</artifactId>
+            <version>2.3.2</version>
+        </dependency>
+
+
         <!-- 引入Spring 依赖 end -->
 
         <!-- 引用c3p0 依赖 start-->

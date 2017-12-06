@@ -4,7 +4,6 @@ import cn.jiguang.common.resp.APIConnectionException;
 import cn.jiguang.common.resp.APIRequestException;
 import cn.jpush.api.JPushClient;
 import cn.jpush.api.push.PushResult;
-import cn.jpush.api.push.model.Platform;
 import cn.jpush.api.push.model.PushPayload;
 import com.chan.service.IOrderService;
 import org.springframework.context.annotation.Scope;
@@ -38,16 +37,20 @@ public class OrderController {
     @RequestMapping("/test2")
     @ResponseBody
     public Object test2() throws APIConnectionException, APIRequestException {
-//        JPushClient jPushClient = new JPushClient(masterSecret, appKey);
-//
-        PushPayload pushPayload = buildPushObject();
-        System.out.println(pushPayload);
-        PushResult result = jPushClient.sendPush(pushPayload);
-        System.out.println(result);
+
         return "OK";
+
     }
 
-    private PushPayload buildPushObject() {
-        return PushPayload.alertAll("OK");
+    public PushResult pushMesageByjPush(PushPayload.Builder builder) {
+        PushPayload pushPayload = builder.build();
+        PushResult result = null;
+        try {
+            result = jPushClient.sendPush(pushPayload);
+            return result;
+        } catch (APIConnectionException | APIRequestException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }

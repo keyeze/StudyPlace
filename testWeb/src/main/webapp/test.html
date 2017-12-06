@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+HelloWorld
+<div id="example">
+
+</div>
+</body>
+<script type="text/javascript">
+    function message() {
+        // 登陆失败和退出系统操作都会返回error信息，通过判断error是否为空控制系统在用户退出及需要输入账号密码时不使用AD域登陆
+        // 判断浏览器是不是ie
+        var isIE = false;
+        var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+        var isOpera = userAgent.indexOf("Opera") > -1;
+        if (userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera) {
+            isIE = true;
+        }
+        // 因为ie10-ie11的版本问题，不再支持document.all判断，所以ie判断函数要重新写了
+        if (!isIE) {
+            isIE = !!window.ActiveXObject || "ActiveXObject" in window;
+        }
+        // 如果是ie，则获取以下信息并登陆
+        if (isIE) {
+            try {
+                var WshNetwork = new ActiveXObject("WScript.Network");
+//                jQuery("#browserName").val("IE");
+//                jQuery("#userOfAD").val(WshNetwork.UserName);
+                alert(WshNetwork.UserName);
+//                jQuery("#form1").submit();
+            }
+            catch (e) {
+//                var promptStr = "自动登录需要允许ActiveXObject脚本运行，请您先进行设置！"
+//                    + "\n设置步骤：在“IE-Internet选项-安全-自定义级别-ActiveX控件和插件-对未标记为可安全执行脚本的ActivesX控件”,设置为“提示”或“启用”";
+//                alert(promptStr);
+                alert(e);
+            }
+        }
+    }
+    message();
+
+</script>
+</html>
