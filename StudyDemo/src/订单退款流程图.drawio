@@ -1,6 +1,6 @@
-<mxfile modified="2019-11-07T02:08:57.232Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="GqRLx15d-JTCBENYm-_U" version="12.2.2" type="github" pages="1">
+<mxfile modified="2019-11-07T09:58:46.237Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="gLei43BFyOo1gANwAl1c" version="12.2.2" type="github" pages="1">
   <diagram id="9AN7pnrX8qKYws4FjDHC" name="第 1 页">
-    <mxGraphModel dx="2219" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1886" dy="1709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -320,14 +320,6 @@
         <mxCell id="cFI78TsbJ56rSpwptIgb-8" value="2提交审核" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=openAsync;startFill=0;" parent="1" source="cFI78TsbJ56rSpwptIgb-1" target="cFI78TsbJ56rSpwptIgb-2" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="NnZ_BAenmuf8vzy2FNam-9" value="1.申请锁定佣金" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cFI78TsbJ56rSpwptIgb-1" target="NnZ_BAenmuf8vzy2FNam-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="370" y="-635"/>
-              <mxPoint x="370" y="-215"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="cFI78TsbJ56rSpwptIgb-1" value="业务系统" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="-675" width="120" height="80" as="geometry"/>
         </mxCell>
@@ -340,7 +332,7 @@
         <mxCell id="cFI78TsbJ56rSpwptIgb-11" value="5.发送追回消息&lt;br&gt;8.发送成功/失败退款消息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="cFI78TsbJ56rSpwptIgb-3" target="cFI78TsbJ56rSpwptIgb-1" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="NnZ_BAenmuf8vzy2FNam-4" value="5,发送佣金回撤确认消息&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cFI78TsbJ56rSpwptIgb-3" target="NnZ_BAenmuf8vzy2FNam-1">
+        <mxCell id="NnZ_BAenmuf8vzy2FNam-4" value="5,发送佣金回撤消息&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="cFI78TsbJ56rSpwptIgb-3" target="NnZ_BAenmuf8vzy2FNam-1" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="cFI78TsbJ56rSpwptIgb-3" value="消息系统" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -421,31 +413,31 @@
         <mxCell id="VHpYkZ38Yjl_FgZYuDL9-22" value="无事件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1940" y="789.5" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="NnZ_BAenmuf8vzy2FNam-1" value="钱包系统" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NnZ_BAenmuf8vzy2FNam-1" value="钱包系统" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="-255" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="NnZ_BAenmuf8vzy2FNam-6" value="6佣金回撤成功确认" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NnZ_BAenmuf8vzy2FNam-1" target="cFI78TsbJ56rSpwptIgb-4">
+        <mxCell id="NnZ_BAenmuf8vzy2FNam-6" value="6佣金回撤成功确认" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="NnZ_BAenmuf8vzy2FNam-1" target="cFI78TsbJ56rSpwptIgb-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="675" y="-280" as="sourcePoint"/>
             <mxPoint x="725" y="-330" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NnZ_BAenmuf8vzy2FNam-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NnZ_BAenmuf8vzy2FNam-10" target="VHpYkZ38Yjl_FgZYuDL9-17">
+        <mxCell id="NnZ_BAenmuf8vzy2FNam-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NnZ_BAenmuf8vzy2FNam-10" target="VHpYkZ38Yjl_FgZYuDL9-17" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="NnZ_BAenmuf8vzy2FNam-10" value="1.发起退款申请" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="NnZ_BAenmuf8vzy2FNam-10" value="1.发起退款申请" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="1690" y="340" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="NnZ_BAenmuf8vzy2FNam-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NnZ_BAenmuf8vzy2FNam-12" target="VHpYkZ38Yjl_FgZYuDL9-19">
+        <mxCell id="NnZ_BAenmuf8vzy2FNam-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NnZ_BAenmuf8vzy2FNam-12" target="VHpYkZ38Yjl_FgZYuDL9-19" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="NnZ_BAenmuf8vzy2FNam-12" value="3.退款确认" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="NnZ_BAenmuf8vzy2FNam-12" value="3.退款确认" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="1690" y="540" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="NnZ_BAenmuf8vzy2FNam-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NnZ_BAenmuf8vzy2FNam-16" target="VHpYkZ38Yjl_FgZYuDL9-22">
+        <mxCell id="NnZ_BAenmuf8vzy2FNam-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NnZ_BAenmuf8vzy2FNam-16" target="VHpYkZ38Yjl_FgZYuDL9-22" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="NnZ_BAenmuf8vzy2FNam-16" value="6商品,佣金全部追回确认成功" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="NnZ_BAenmuf8vzy2FNam-16" value="6商品,佣金全部追回确认成功" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="1690" y="800" width="120" height="80" as="geometry"/>
         </mxCell>
       </root>
