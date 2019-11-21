@@ -1,14 +1,14 @@
-<mxfile host="www.draw.io" modified="2019-11-21T09:31:14.906Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="AxOqejGsMTSami3dEjEG" version="12.2.7" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-21T09:36:56.538Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="w9Qx1YN4aOfOpEikKNIZ" version="12.2.7" type="github" pages="1">
   <diagram id="cEc0h2iF0K5q6m1uaAOV" name="第 1 页">
-    <mxGraphModel dx="2219" dy="1011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1886" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="A1G18Pe8bfz9cP0imDHL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A1G18Pe8bfz9cP0imDHL-9" target="A1G18Pe8bfz9cP0imDHL-11">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="A1G18Pe8bfz9cP0imDHL-9" value="发送拳法消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="180" width="120" height="60" as="geometry"/>
+        <mxCell id="A1G18Pe8bfz9cP0imDHL-9" value="发送群发消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="180" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="A1G18Pe8bfz9cP0imDHL-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A1G18Pe8bfz9cP0imDHL-11" target="A1G18Pe8bfz9cP0imDHL-14">
           <mxGeometry relative="1" as="geometry"/>
@@ -20,9 +20,9 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="A1G18Pe8bfz9cP0imDHL-12" value="将拆解的消息装入队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="180" width="120" height="60" as="geometry"/>
+          <mxGeometry x="840" y="180" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="A1G18Pe8bfz9cP0imDHL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A1G18Pe8bfz9cP0imDHL-14" target="A1G18Pe8bfz9cP0imDHL-19">
+        <mxCell id="A1G18Pe8bfz9cP0imDHL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A1G18Pe8bfz9cP0imDHL-14" target="A1G18Pe8bfz9cP0imDHL-19">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="A1G18Pe8bfz9cP0imDHL-14" value="唤醒所有发送消息的线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -32,22 +32,22 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="A1G18Pe8bfz9cP0imDHL-19" value="所有线程从队列中拉取消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="460" width="120" height="60" as="geometry"/>
+          <mxGeometry x="840" y="320" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="A1G18Pe8bfz9cP0imDHL-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A1G18Pe8bfz9cP0imDHL-21" target="A1G18Pe8bfz9cP0imDHL-26">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="A1G18Pe8bfz9cP0imDHL-21" value="封装填充微信消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="600" width="120" height="60" as="geometry"/>
+        <mxCell id="A1G18Pe8bfz9cP0imDHL-21" value="封装填充微信消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="590" y="430" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="A1G18Pe8bfz9cP0imDHL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A1G18Pe8bfz9cP0imDHL-26" target="A1G18Pe8bfz9cP0imDHL-28">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="A1G18Pe8bfz9cP0imDHL-26" value="&lt;span style=&quot;white-space: normal&quot;&gt;发送至微信&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="750" width="120" height="60" as="geometry"/>
+          <mxGeometry x="1000" y="485" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="A1G18Pe8bfz9cP0imDHL-28" value="分装填充神策消息&lt;br&gt;模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="840" width="120" height="60" as="geometry"/>
+        <mxCell id="A1G18Pe8bfz9cP0imDHL-28" value="分装填充神策消息&lt;br&gt;模板" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="540" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="A1G18Pe8bfz9cP0imDHL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.543;exitY=0.995;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="A1G18Pe8bfz9cP0imDHL-28" target="A1G18Pe8bfz9cP0imDHL-32">
           <mxGeometry relative="1" as="geometry">
@@ -55,7 +55,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="A1G18Pe8bfz9cP0imDHL-32" value="发送至神策" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="920" width="120" height="60" as="geometry"/>
+          <mxGeometry x="1000" y="595" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
