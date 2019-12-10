@@ -1,9 +1,12 @@
-<mxfile host="www.draw.io" modified="2019-12-10T08:06:19.204Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="aDBbXd65hcMWl9rXeEBZ" version="12.3.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-10T08:08:28.277Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="A9O5gLerZaAKfi9A56uA" version="12.3.9" type="github" pages="1">
   <diagram id="SW2ZWYa4k1BBShwDUSie" name="第 1 页">
-    <mxGraphModel dx="2694" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1886" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
+        <mxCell id="e2E63MVuH42Y2_1gBgpo-53" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;积分系统&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="400" width="270" height="1190" as="geometry"/>
+        </mxCell>
         <mxCell id="e2E63MVuH42Y2_1gBgpo-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="k9UrDd0smU3DOVZ3qWHp-37" target="e2E63MVuH42Y2_1gBgpo-21">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
@@ -52,10 +55,10 @@
           <mxGeometry x="340" y="1165" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="k9UrDd0smU3DOVZ3qWHp-50" value="查询积分余额" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="525.5" width="140" height="70" as="geometry"/>
+          <mxGeometry x="875" y="525.5" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="k9UrDd0smU3DOVZ3qWHp-52" value="查询积分明细" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="609" width="140" height="70" as="geometry"/>
+          <mxGeometry x="875" y="609" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="k9UrDd0smU3DOVZ3qWHp-107" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=classic;endFill=1;" parent="1" source="k9UrDd0smU3DOVZ3qWHp-59" target="k9UrDd0smU3DOVZ3qWHp-98" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -100,13 +103,13 @@
           <mxGeometry x="340" y="1031" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="k9UrDd0smU3DOVZ3qWHp-91" value="积分预消耗" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="770" width="140" height="70" as="geometry"/>
+          <mxGeometry x="875" y="770" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="k9UrDd0smU3DOVZ3qWHp-96" value="积分消耗取消" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="849.5" width="140" height="70" as="geometry"/>
+          <mxGeometry x="875" y="849.5" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="k9UrDd0smU3DOVZ3qWHp-98" value="积分确认消耗" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="1031" width="140" height="70" as="geometry"/>
+          <mxGeometry x="875" y="1031" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="e2E63MVuH42Y2_1gBgpo-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="e2E63MVuH42Y2_1gBgpo-13" target="e2E63MVuH42Y2_1gBgpo-5">
           <mxGeometry relative="1" as="geometry"/>
@@ -124,7 +127,7 @@
           <mxGeometry x="610" y="770" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="e2E63MVuH42Y2_1gBgpo-1" value="积分直接入账" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="1220" width="140" height="70" as="geometry"/>
+          <mxGeometry x="875" y="1220" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="e2E63MVuH42Y2_1gBgpo-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="e2E63MVuH42Y2_1gBgpo-3" target="k9UrDd0smU3DOVZ3qWHp-46">
           <mxGeometry relative="1" as="geometry"/>
@@ -136,10 +139,10 @@
           <mxGeometry x="340" y="1304" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="e2E63MVuH42Y2_1gBgpo-5" value="积分入账" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="1304" width="140" height="70" as="geometry"/>
+          <mxGeometry x="875" y="1304" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="e2E63MVuH42Y2_1gBgpo-6" value="积分生效" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="1407.5" width="140" height="70" as="geometry"/>
+          <mxGeometry x="875" y="1407.5" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="e2E63MVuH42Y2_1gBgpo-13" value="触发任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="1304" width="140" height="70" as="geometry"/>
@@ -151,7 +154,7 @@
           <mxGeometry x="1120" y="1497.5" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="e2E63MVuH42Y2_1gBgpo-17" value="积分失效" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="1497.5" width="140" height="70" as="geometry"/>
+          <mxGeometry x="875" y="1497.5" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="e2E63MVuH42Y2_1gBgpo-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="e2E63MVuH42Y2_1gBgpo-20" target="k9UrDd0smU3DOVZ3qWHp-64">
           <mxGeometry relative="1" as="geometry"/>
@@ -197,10 +200,10 @@
           <mxGeometry x="1150" y="690" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="e2E63MVuH42Y2_1gBgpo-38" value="积分返还" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="690" width="140" height="70" as="geometry"/>
+          <mxGeometry x="875" y="690" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="e2E63MVuH42Y2_1gBgpo-41" value="积分冻结" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="442" width="140" height="70" as="geometry"/>
+          <mxGeometry x="875" y="442" width="140" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="e2E63MVuH42Y2_1gBgpo-45" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="e2E63MVuH42Y2_1gBgpo-44" target="e2E63MVuH42Y2_1gBgpo-20">
           <mxGeometry relative="1" as="geometry"/>
