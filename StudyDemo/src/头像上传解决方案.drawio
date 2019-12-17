@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-17T03:29:53.704Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="jlTnzrkEIQKZviP6fNhl" version="12.4.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-17T04:02:21.652Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="rajMS3E_t0r3jBU6QKp7" version="12.4.2" type="github" pages="1">
   <diagram id="5QiOQKNCq6tEFeVftK_o" name="第 1 页">
-    <mxGraphModel dx="2013" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2444" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -82,7 +82,7 @@
           <mxGeometry x="50" y="250" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="8ZZjffh4FhQhodE5l19A-45" value="用户服务" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
-          <mxGeometry x="640" y="790" width="350" height="810" as="geometry"/>
+          <mxGeometry x="450" y="630" width="350" height="810" as="geometry"/>
         </mxCell>
         <mxCell id="8ZZjffh4FhQhodE5l19A-64" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8ZZjffh4FhQhodE5l19A-45">
           <mxGeometry x="30" y="160" width="290" height="610" as="geometry"/>
@@ -127,13 +127,13 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="8ZZjffh4FhQhodE5l19A-51" value="MQ" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="790" width="220" height="810" as="geometry"/>
+          <mxGeometry x="830" y="630" width="220" height="810" as="geometry"/>
         </mxCell>
         <mxCell id="8ZZjffh4FhQhodE5l19A-61" value="&lt;span style=&quot;white-space: normal&quot;&gt;通知文件上传&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8ZZjffh4FhQhodE5l19A-51">
           <mxGeometry x="50" y="430" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="8ZZjffh4FhQhodE5l19A-57" value="文件上传系统(user)" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="790" width="220" height="810" as="geometry"/>
+          <mxGeometry x="1080" y="630" width="220" height="810" as="geometry"/>
         </mxCell>
         <mxCell id="8ZZjffh4FhQhodE5l19A-58" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8ZZjffh4FhQhodE5l19A-57" source="8ZZjffh4FhQhodE5l19A-59" target="8ZZjffh4FhQhodE5l19A-60">
           <mxGeometry relative="1" as="geometry"/>
