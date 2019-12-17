@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-17T04:59:09.663Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="XQu6tjggysAD6DZWI_bd" version="12.4.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-17T06:14:09.968Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="MgezOFwy-RfBoJCp4mfz" version="12.4.2" type="github" pages="1">
   <diagram id="5QiOQKNCq6tEFeVftK_o" name="第 1 页">
     <mxGraphModel dx="2013" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
           <mxGeometry x="110" y="430" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="8ZZjffh4FhQhodE5l19A-77" value="清除user_info头像字段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8ZZjffh4FhQhodE5l19A-45">
-          <mxGeometry x="50" y="680" width="120" height="60" as="geometry"/>
+          <mxGeometry x="40" y="680" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="8ZZjffh4FhQhodE5l19A-80" value="将wechat_info头像地址保存至user_info中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8ZZjffh4FhQhodE5l19A-45">
           <mxGeometry x="180" y="680" width="120" height="60" as="geometry"/>
