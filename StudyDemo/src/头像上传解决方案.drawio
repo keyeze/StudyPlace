@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-17T04:02:21.652Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="rajMS3E_t0r3jBU6QKp7" version="12.4.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-17T04:08:20.411Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="Mdq12GYMXz0-PNUXwQOl" version="12.4.2" type="github" pages="1">
   <diagram id="5QiOQKNCq6tEFeVftK_o" name="第 1 页">
-    <mxGraphModel dx="2444" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -31,7 +31,7 @@
         <mxCell id="8ZZjffh4FhQhodE5l19A-12" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="8ZZjffh4FhQhodE5l19A-27" source="8ZZjffh4FhQhodE5l19A-5" target="8ZZjffh4FhQhodE5l19A-11">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="8ZZjffh4FhQhodE5l19A-33" value="鉴权中心" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+        <mxCell id="8ZZjffh4FhQhodE5l19A-33" value="用户服务" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
           <mxGeometry x="960" y="70" width="420" height="540" as="geometry"/>
         </mxCell>
         <mxCell id="8ZZjffh4FhQhodE5l19A-10" value="通过openId或unionid调用user服务的新增或更新服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8ZZjffh4FhQhodE5l19A-33">
