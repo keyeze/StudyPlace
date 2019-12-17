@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-17T04:47:08.479Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="bNJadWY2y27U5Q16unGR" version="12.4.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-17T04:48:42.997Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="2aPFljuxlht7wrHogiOB" version="12.4.2" type="github" pages="1">
   <diagram id="5QiOQKNCq6tEFeVftK_o" name="第 1 页">
     <mxGraphModel dx="2013" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
@@ -206,7 +206,7 @@
         <mxCell id="8ZZjffh4FhQhodE5l19A-127" value="write" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8ZZjffh4FhQhodE5l19A-108" target="8ZZjffh4FhQhodE5l19A-126">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="8ZZjffh4FhQhodE5l19A-108" value="Request-Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8ZZjffh4FhQhodE5l19A-108" value="Request-Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2280" y="1370" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="8ZZjffh4FhQhodE5l19A-110" value="管道连接" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
@@ -272,7 +272,7 @@
         <mxCell id="8ZZjffh4FhQhodE5l19A-135" value="write" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8ZZjffh4FhQhodE5l19A-136" target="8ZZjffh4FhQhodE5l19A-151">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="8ZZjffh4FhQhodE5l19A-136" value="Request-Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8ZZjffh4FhQhodE5l19A-136" value="Request-Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2280" y="1750" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="8ZZjffh4FhQhodE5l19A-137" value="管道连接" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
@@ -350,7 +350,7 @@
         <mxCell id="8ZZjffh4FhQhodE5l19A-205" value="write" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8ZZjffh4FhQhodE5l19A-206" target="8ZZjffh4FhQhodE5l19A-216">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="8ZZjffh4FhQhodE5l19A-206" value="Request-Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8ZZjffh4FhQhodE5l19A-206" value="Request-Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2280" y="2220" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="8ZZjffh4FhQhodE5l19A-207" value="NIO管道连接" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
