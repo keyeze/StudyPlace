@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-18T06:48:06.197Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="Zo0RvRTPaj0V5qZXCqb7" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-18T07:02:44.578Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="PtrVy1XZw7n-V9uS81qQ" version="12.4.3" type="github" pages="1">
   <diagram id="L1tXBJzJi5MXC7lRj_LI" name="第 1 页">
     <mxGraphModel dx="2013" dy="872" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
         <mxCell id="EqqhAGQdl-XHteXpxpte-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EqqhAGQdl-XHteXpxpte-18" target="EqqhAGQdl-XHteXpxpte-24">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-20" value="保单保存接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="EqqhAGQdl-XHteXpxpte-20" value="保单预操作接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="309.67" y="350" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="EqqhAGQdl-XHteXpxpte-29" value="下单/下单" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EqqhAGQdl-XHteXpxpte-24" target="EqqhAGQdl-XHteXpxpte-26">
@@ -280,7 +280,7 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-133" value="查询到的订单状态&amp;amp;系统当前订单状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EqqhAGQdl-XHteXpxpte-133" value="回调订单状态&amp;amp;系统当前订单状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="317" y="2025" width="80" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="EqqhAGQdl-XHteXpxpte-134" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
