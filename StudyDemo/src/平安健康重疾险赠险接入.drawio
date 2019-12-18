@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-18T05:07:50.201Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="50lwgaD0kVHQRn5jVdgH" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-18T06:15:41.824Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="fZBMANX0lB8z7ICjP3Lq" version="12.4.3" type="github" pages="1">
   <diagram id="L1tXBJzJi5MXC7lRj_LI" name="第 1 页">
     <mxGraphModel dx="2013" dy="872" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
@@ -133,60 +133,38 @@
         <mxCell id="EqqhAGQdl-XHteXpxpte-59" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="55" y="1094" width="779" height="510" as="geometry"/>
         </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-60" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="EqqhAGQdl-XHteXpxpte-61" target="EqqhAGQdl-XHteXpxpte-69">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-61" value="短信校验接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="515.0000000000001" y="899.65" width="120" height="60" as="geometry"/>
-        </mxCell>
         <mxCell id="EqqhAGQdl-XHteXpxpte-62" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EqqhAGQdl-XHteXpxpte-63" target="EqqhAGQdl-XHteXpxpte-74">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-63" value="填写详细信息,&lt;br&gt;调用重疾险领取接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="1019.65" width="120" height="60" as="geometry"/>
+        <mxCell id="EqqhAGQdl-XHteXpxpte-63" value="填写详细信息,&lt;br&gt;调用投保接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="890" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-64" value="投保接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="515.0000000000001" y="1019.65" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-65" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitPerimeter=0;" edge="1" parent="1" source="EqqhAGQdl-XHteXpxpte-69" target="EqqhAGQdl-XHteXpxpte-63">
+        <mxCell id="EqqhAGQdl-XHteXpxpte-99" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EqqhAGQdl-XHteXpxpte-64" target="EqqhAGQdl-XHteXpxpte-98">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-66" value="调用保服获取验证码接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="315" y="899.65" width="120" height="60" as="geometry"/>
+        <mxCell id="EqqhAGQdl-XHteXpxpte-64" value="提交投保请求接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="514.0000000000001" y="890" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-67" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="EqqhAGQdl-XHteXpxpte-66" target="EqqhAGQdl-XHteXpxpte-61">
+        <mxCell id="EqqhAGQdl-XHteXpxpte-98" value="支付接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="514.0000000000001" y="992" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="EqqhAGQdl-XHteXpxpte-65" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitPerimeter=0;" edge="1" parent="1" source="EqqhAGQdl-XHteXpxpte-69" target="EqqhAGQdl-XHteXpxpte-63">
           <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-68" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EqqhAGQdl-XHteXpxpte-69" target="EqqhAGQdl-XHteXpxpte-71">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-35" y="909.65" as="targetPoint"/>
-          </mxGeometry>
         </mxCell>
         <mxCell id="EqqhAGQdl-XHteXpxpte-69" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="5.000000000000002" y="899.65" width="30" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-70" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EqqhAGQdl-XHteXpxpte-71" target="EqqhAGQdl-XHteXpxpte-66">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="235.00000000000003" y="909.65" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-71" value="获取验证码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="899.65" width="120" height="60" as="geometry"/>
-        </mxCell>
         <mxCell id="EqqhAGQdl-XHteXpxpte-72" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EqqhAGQdl-XHteXpxpte-74" target="EqqhAGQdl-XHteXpxpte-64">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-73" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="EqqhAGQdl-XHteXpxpte-74" target="EqqhAGQdl-XHteXpxpte-76">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-74" value="转化为平安报文&lt;br&gt;进行投保" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="315" y="1019.65" width="120" height="60" as="geometry"/>
+        <mxCell id="EqqhAGQdl-XHteXpxpte-74" value="投保报文" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="314" y="890" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="EqqhAGQdl-XHteXpxpte-75" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EqqhAGQdl-XHteXpxpte-76" target="EqqhAGQdl-XHteXpxpte-80">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="EqqhAGQdl-XHteXpxpte-76" value="发起定时任务,&lt;br&gt;定时获取平安保单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="314" y="1115.65" width="120" height="60" as="geometry"/>
+        <mxCell id="EqqhAGQdl-XHteXpxpte-76" value="中民请求回调" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="514" y="1102" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="EqqhAGQdl-XHteXpxpte-77" value="获取保单接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="514.0000000000001" y="1205.65" width="120" height="60" as="geometry"/>
