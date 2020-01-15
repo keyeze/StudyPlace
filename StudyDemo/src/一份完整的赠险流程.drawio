@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-15T07:53:07.574Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="Db0-iyV0zF59zgBzS9iO" version="12.5.3" type="github">
+<mxfile host="www.draw.io" modified="2020-01-15T07:53:42.878Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="z_Vp80B9Uhnt_-om7oHK" version="12.5.3" type="github">
   <diagram id="6QVMj45PfsqjR3qk2iQ-" name="第 1 页">
     <mxGraphModel dx="1711" dy="1591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
@@ -208,9 +208,6 @@
         </mxCell>
         <mxCell id="kskbFPByA07mactEsGFS-93" value="java后续保单状态通知回调" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="849" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="kskbFPByA07mactEsGFS-94" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="1209" y="910" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
