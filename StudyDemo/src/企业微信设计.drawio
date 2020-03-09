@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-09T02:26:35.316Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="_ZUBCu0h0VXzQ_iVDrRy" version="12.8.1" type="github">
+<mxfile host="www.draw.io" modified="2020-03-09T02:29:42.185Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="4nkN-ADHlOC0MvxOEzbr" version="12.8.1" type="github">
   <diagram id="cpUhCOu6Bws-PT-K-9d0" name="第 1 页">
     <mxGraphModel dx="1711" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
@@ -23,15 +23,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CkZjMgSzo_3_K3JumcUO-3" value="获取企业token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CkZjMgSzo_3_K3JumcUO-5" value="应用级&lt;br&gt;接口服务&lt;br&gt;&amp;amp;&lt;br&gt;事件回调" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="880" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CkZjMgSzo_3_K3JumcUO-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CkZjMgSzo_3_K3JumcUO-15" target="CkZjMgSzo_3_K3JumcUO-24">
+        <mxCell id="CkZjMgSzo_3_K3JumcUO-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CkZjMgSzo_3_K3JumcUO-15" target="CkZjMgSzo_3_K3JumcUO-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CkZjMgSzo_3_K3JumcUO-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="CkZjMgSzo_3_K3JumcUO-24" target="CkZjMgSzo_3_K3JumcUO-3">
+        <mxCell id="CkZjMgSzo_3_K3JumcUO-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="CkZjMgSzo_3_K3JumcUO-24" target="CkZjMgSzo_3_K3JumcUO-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CkZjMgSzo_3_K3JumcUO-15" value="临时授权码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -44,9 +44,9 @@
           <mxGeometry x="200" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CkZjMgSzo_3_K3JumcUO-24" value="永久授权码" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="480" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CkZjMgSzo_3_K3JumcUO-27" value="应用级&lt;br&gt;接口服务&lt;br&gt;&amp;amp;&lt;br&gt;事件回调" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="CkZjMgSzo_3_K3JumcUO-27" value="企业级&lt;br&gt;接口服务&lt;br&gt;&amp;amp;&lt;br&gt;事件回调" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="880" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CkZjMgSzo_3_K3JumcUO-35" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CkZjMgSzo_3_K3JumcUO-34" target="CkZjMgSzo_3_K3JumcUO-2">
